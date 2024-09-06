@@ -2,7 +2,7 @@ import { ProjectListType } from '@/types/profileData';
 import { ProjectElement } from './ProjectElement';
 import { Part } from '../Part';
 
-import styles from './project.module.scss';
+import styles from './projects.module.scss';
 
 interface ProjectProps {
   projectData: ProjectListType;
@@ -17,7 +17,7 @@ export const Project = ({ projectData }: ProjectProps) => {
           (projectKey, idx) =>
             projectData[projectKey].digest && (
               <ProjectElement project={projectData[projectKey]} key={`project-${idx}`} />
-            )
+            ),
         )}
       </ul>
     </Part>

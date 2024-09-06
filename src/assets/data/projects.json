@@ -1,0 +1,99 @@
+{
+    "rookies": {
+      "key": "rookies",
+      "title": "Rook!es 디자인 시스템",
+      "startDateYear": 2023,
+      "startDateMonth": 4,
+      "githubLink": "https://github.com/42-world/Rookies-Design-System",
+      "stacks": ["Tailwind", "React", "TypeScript", "Storybook", "Framer"],
+      "summary": "42World 팀이 모여 만든 디자인 시스템",
+      "digest": [
+        { "description": "프론트엔드 6~7인, 디자이너 3인으로 구성된 프로젝트" },
+        {
+          "description": "기존의 42World 프로젝트를 발판 삼아 일관성 있는 디자인을 제공하고 빠른 개발을 가능하게 하기 위한 시스템 개발"
+        }
+      ]
+    },
+    "transcendence": {
+      "key": "transcendence",
+      "title": "ft_transcendence",
+      "startDateYear": 2023,
+      "startDateMonth": 1,
+      "startDateDay": 20,
+      "endDateYear": 2023,
+      "endDateMonth": 3,
+      "endDateDay": 3,
+      "githubLink": "https://github.com/42Blank/ft_transcendence",
+      "stacks": ["TypeScript", "React", "React Query", "Emotion", "Socket.io"],
+      "summary": "42 서울 마지막 과제로, 온라인으로 Pong 멀티플레이가 가능한 웹 게임 서비스",
+      "digest": [
+        { "description": "프론트엔드 3인, 백엔드 2인으로 구성된 프로젝트" },
+        { "description": "기획, 전체 페이지 디자인 및 채팅 기능, 메인 페이지와 채팅 페이지, 소켓 통신 로직 담당" },
+        { "description": "전역 상태관리 라이브러리를 이용한 최상단 훅에서의 소켓 관리" },
+        { "description": "Socket.io를 이용한 클라이언트 간 채팅 기능 추가" },
+        { "description": "42 OAuth를 이용한 로그인 구현", "link": ["https://blog.chichoon.com/892"] }
+      ]
+    },
+    "scopa": {
+      "key": "scopa",
+      "title": "SCOPA",
+      "startDateYear": 2022,
+      "startDateMonth": 11,
+      "startDateDay": 7,
+      "endDateYear": 2022,
+      "endDateMonth": 12,
+      "endDateDay": 16,
+      "githubLink": "https://github.com/boostcampwm-2022/web25-SCOPA",
+      "stacks": ["TypeScript", "Recoil", "Scss", "React"],
+      "summary": "개인이 작성한 코드를 프로필의 핵심 요소로 내세워\n프로젝트 파트너를 찾는 웹 서비스",
+      "digest": [
+        { "description": "프론트엔드 2인, 백엔드 2인으로 구성된 프로젝트" },
+        { "description": "기획, 프론트엔드 전반 및 페이지 디자인 작업 담당" },
+        { "description": "Server Sent Event를 통한 쪽지 알림 기능 추가", "link": ["https://blog.chichoon.com/778"] },
+        { "description": "시맨틱 태그를 활용한 페이지 공용 레이아웃 작업", "link": ["https://blog.chichoon.com/772"] }
+      ]
+    },
+    "42world": {
+      "key": "42world",
+      "title": "42World",
+      "imageRef": "https://user-images.githubusercontent.com/37893979/231683789-374c9b8b-6243-4b80-b05b-bc8f737ee5aa.png",
+      "startDateYear": 2022,
+      "startDateMonth": 3,
+      "startDateDay": 4,
+      "githubLink": "https://github.com/42-world",
+      "publishedLink": "https://www.42world.kr/",
+      "stacks": ["JavaScript", "TypeScript", "React", "React Query", "Styled Components", "Emotion"],
+      "summary": "취업자, 창업자, 알럼나이, 카뎃을 아우르는\n42서울 통합 커뮤니티 채널",
+      "digest": [
+        { "description": "프론트엔드 4~6인, 백엔드 4~5인으로 구성된 프로젝트" },
+        { "description": "디자인, 마이페이지 프론트엔드 및 로고와 마스코트, 홍보 이미지 등 asset 제작을 담당" },
+        { "description": "42서울 커뮤니티에서의 꾸준한 홍보와 이벤트를 통해 누적 500명 이상의 회원 수 확보" },
+        { "description": "실제 사용자들에게 피드백과 버그리포팅 수렴 및 반영" },
+        {
+          "description": "React Query와 캐시를 이용한 전역 상태관리",
+          "link": ["https://blog.chichoon.com/555"]
+        },
+        {
+          "description": "React Portal과 이벤트 위임을 통한 모달 제작",
+          "link": ["https://blog.chichoon.com/527", "https://blog.chichoon.com/622"]
+        },
+        { "description": "코드 리팩터링 수행", "link": ["https://blog.chichoon.com/621"] }
+      ]
+    },
+    "jst": {
+      "key": "solo-project",
+      "title": "개인 프로젝트",
+      "startDateYear": 2022,
+      "startDateMonth": 6,
+      "startDateDay": 12,
+      "stacks": ["TypeScript", "React Query", "React", "Redux Toolkit", "Scss"],
+      "summary": "혼자 진행한 프로젝트들",
+      "digest": [
+        {
+          "description": "좋은 아침 🌄 입니다, 아침마다 올리는 추천곡 모아보기 웹서비스",
+          "link": ["https://jst.chichoon.com/"],
+          "githubLink": ["https://github.com/chichoon/JiychoiStandardTime"]
+        }
+      ]
+    }
+  }
