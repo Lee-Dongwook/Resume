@@ -1,0 +1,29 @@
+@use '@/styles/constants/colors';
+@use '@/styles/constants/sizes';
+@use '@/styles/responsive';
+
+.badgeWrapper {
+  width: 100%;
+  max-width: sizes.$MAIN_INNER_MAX_WIDTH;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  user-select: none;
+}
+
+.badge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: sizes.$FONT_L;
+
+  span {
+    margin-right: 10px;
+    font-size: sizes.$FONT_S;
+    line-height: 15px;
+    vertical-align: center;
+    color: colors.$GRAY3;
+  }
+}
