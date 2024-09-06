@@ -1,0 +1,38 @@
+@use '@/styles/constants/colors';
+@use '@/styles/constants/sizes';
+
+.headerWrapper {
+  width: 100%;
+  max-width: sizes.$RESUME_MAX_WIDTH;
+  padding: 25px 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: colors.$WHITE;
+}
+
+.headerDividerLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+  h1 {
+    font-size: sizes.$FONT_XXL;
+    color: colors.$BLACK;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+
+  & > span {
+    font-size: sizes.$FONT_M;
+    color: colors.$GRAY6;
+    font-weight: 400;
+  }
+}
+
+.headerDividerRight {
+  display: flex;
+  flex-direction: column;
+}
