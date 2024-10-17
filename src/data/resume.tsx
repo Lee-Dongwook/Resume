@@ -4,7 +4,9 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const Data = {
   name: "Lee DongWook",
   location: "PyeongTaek, Gyeonggi",
-  description: "향상된 사용자 경험을 제공하고자 노력하는 개발자 이동욱입니다.",
+  description: "향상된 UX를 제공하고자 노력하는 개발자 이동욱입니다.",
+  summary: "",
+  avatarUrl: "./certificate.jpg",
   skills: [
     "React",
     "Next.js",
