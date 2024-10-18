@@ -3,6 +3,7 @@ import BlurFade from "@/components/ui/blur-fade";
 import BlurFadeText from "@/components/ui/blur-fade-text";
 import { Badge } from "@/components/ui/badge";
 import { ResumeCard } from "@/components/resume-card";
+import { ProjectCard } from "@/components/project-card";
 import { Data } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
@@ -29,18 +30,6 @@ export default function page() {
             />
           </BlurFade>
         </div>
-      </section>
-
-      {/* About Section */}
-      <section id="about" className="text-center">
-        <BlurFade delay={BLUR_FADE_DELAY * 3}>
-          <h2 className="text-4xl font-bold">About</h2>
-        </BlurFade>
-        <BlurFade delay={BLUR_FADE_DELAY * 4}>
-          <Markdown className="prose max-w-full mx-auto text-3xl font-sans text-muted-foreground dark:prose-invert">
-            {Data.summary}
-          </Markdown>
-        </BlurFade>
       </section>
 
       {/* Work Section */}
@@ -105,16 +94,7 @@ export default function page() {
       <section id="projects" className="w-full max-w-3xl mx-auto py-12">
         <BlurFade delay={BLUR_FADE_DELAY * 11}>
           <div className="text-center">
-            <div className="inline-block bg-foreground text-background px-3 py-1 text-sm rounded-lg">
-              My Projects
-            </div>
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mt-4">
-              Check out my latest work
-            </h2>
-            <p className="text-muted-foreground text-lg mt-4">
-              I&apos;ve worked on a variety of projects, from simple websites to
-              complex web applications.
-            </p>
+            <h2 className="text-4xl font-bold text-center">Projects</h2>
           </div>
         </BlurFade>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
@@ -123,9 +103,12 @@ export default function page() {
               key={project.title}
               delay={BLUR_FADE_DELAY * 12 + id * 0.05}
             >
-              <div className="bg-white p-4 rounded-lg shadow-lg">
-                {/* 프로젝트 내용 추가 */}
-              </div>
+              <ProjectCard
+                title={project.title}
+                key={project.title}
+                description={project.description}
+                dates={project.dates}
+              />
             </BlurFade>
           ))}
         </div>

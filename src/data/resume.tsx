@@ -79,7 +79,7 @@ export const Data = {
   ],
   projects: [
     {
-      title: "",
+      title: "TripPlannerZ",
       href: "",
       dates: "",
       active: true,

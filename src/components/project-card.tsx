@@ -16,7 +16,7 @@ interface Props {
   href?: string;
   description: string;
   dates: string;
-  tags: readonly string[];
+  tags?: readonly string[];
   link?: string;
   image?: string;
   video?: string;
